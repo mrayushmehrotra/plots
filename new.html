@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Application Form Plots</title>
+  <style>
+    /* Use Calibri for the document */
+    body {
+      margin: 0;
+      padding: 0;
+      background: #e0e0e0;
+      font-family: Calibri, sans-serif;
+      font-size: 11pt;
+      color: #333;
+      line-height: 1.5;
+    }
+    /* Each A4 page styling */
+    .page {
+      background: #fff;
+      width: 210mm;
+      min-height: 297mm;
+      margin: 10mm auto;
+      padding: 20mm;
+      box-sizing: border-box;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      page-break-after: always;
+    }
+    /* Header: Application Date aligned to right */
+    .header-date {
+      text-align: right;
+      font-size: 11pt;
+      margin-bottom: 5mm;
+    }
+    /* Main Title: APPLICATION FORM */
+    .main-title {
+      text-align: center;
+      font-size: 16pt;
+      font-weight: bold;
+      margin-bottom: 10mm;
+    }
+    /* Section Headings */
+    h2, h3, h4 {
+      margin: 0 0 5mm;
+      padding: 0;
+      font-weight: bold;
+    }
+    h2 { font-size: 14pt; }
+    h3 { font-size: 12pt; }
+    p, ul, ol {
+      margin: 0 0 5mm;
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+    /* Remove box shadow for print */
+    @media print {
+      body { background: none; }
+      .page {
+        margin: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page 1: Cover with Application Date and Title -->
+  <div class="page">
+    <div class="header-date">
+      Application Date _________________
+    </div>
+    <div class="main-title">
+      APPLICATION FORM
+    </div>
+    <nav>
+      <h2>Contents</h2>
+      <ol>
+        <li>Applicant Details</li>
+        <li>Application For Allotment</li>
+        <li>Plot Details & Payment Information</li>
+        <li>Declaration</li>
+        <li>Terms &amp; Conditions</li>
+      </ol>
+    </nav>
+    <section>
+      <h3>Guidelines for Filling the Form</h3>
+      <ul>
+        <li>Fill in all information legibly.</li>
+        <li>Sign on every page. For joint applicants, all signatures are required.</li>
+        <li>Ensure all documents are self-attested.</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Required Documents</h3>
+      <ul>
+        <li>Copy of PAN Card / Form-60 (duly filled).</li>
+        <li>Copy of latest Aadhaar Card.</li>
+        <li>Recent passport-size color photograph(s).</li>
+        <li>Additional documents for companies, partnerships, HUF, and NRI/PIO as applicable.</li>
+        <li>Photocopy of valid photo ID and Address Proof.</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Page 2: Application for Allotment -->
+  <div class="page">
+    <section>
+      <h2>Application for Allotment of Residential Plot</h2>
+      <p>
+        <strong>Project:</strong> Integrated Residential Plotted Colony “Trident Hills”<br>
+        <strong>Location:</strong> Sector-4 &amp; 4A, Pinjore Kalka Urban Complex, Panchkula, Haryana
+      </p>
+      <address>
+        <p>
+          To,<br>
+          Trident Hills Private Limited (formerly Ireo Fiveriver Private Limited)<br>
+          Sector-4, Pinjore Kalka Urban Complex,<br>
+          Pinjore, Panchkula – 134102, Haryana, India
+        </p>
+      </address>
+      <p>
+        Dear Sir/Madam,<br><br>
+        I/We, the undersigned Applicant(s), have carefully reviewed the project details and indicative terms. Having visited the project site and conducted due diligence, I/we hereby apply for the allotment of a plot as per the agreed Payment Plan.
+      </p>
+      <p>
+        I/We understand that this application will become definitive only after the execution of the Plot Buyer Agreement.
+      </p>
+      <p>
+        Sincerely,<br>
+        ____________________________ (Applicant Signature)
+      </p>
+    </section>
+  </div>
+
+  <!-- Page 3: Applicant Details -->
+  <div class="page">
+    <section>
+      <h2>Applicant(s) Details</h2>
+      <article>
+        <h3>1. Sole/First Applicant</h3>
+        <p>
+          <strong>Name:</strong> ___________________________<br>
+          <strong>S/W/D of:</strong> ___________________________<br>
+          <strong>Address:</strong> ___________________________<br>
+          <strong>City:</strong> _______________ <strong>State:</strong> __________<br>
+          <strong>Country:</strong> ___________________________<br>
+          <strong>Telephone:</strong> ___________________________<br>
+          <strong>Email:</strong> ___________________________
+        </p>
+      </article>
+      <article>
+        <h3>2. Co/Second Applicant</h3>
+        <p>
+          <strong>Name:</strong> ___________________________<br>
+          <strong>S/W/D of:</strong> ___________________________<br>
+          <strong>Address:</strong> ___________________________<br>
+          <strong>City:</strong> _______________ <strong>State:</strong> __________<br>
+          <strong>Country:</strong> ___________________________<br>
+          <strong>Telephone:</strong> ___________________________<br>
+          <strong>Email:</strong> ___________________________
+        </p>
+      </article>
+      <article>
+        <h3>3. Co/Third Applicant</h3>
+        <p>
+          <strong>Name:</strong> ___________________________<br>
+          <strong>S/W/D of:</strong> ___________________________<br>
+          <strong>Address:</strong> ___________________________<br>
+          <strong>City:</strong> _______________ <strong>State:</strong> __________<br>
+          <strong>Country:</strong> ___________________________<br>
+          <strong>Telephone:</strong> ___________________________<br>
+          <strong>Email:</strong> ___________________________
+        </p>
+      </article>
+    </section>
+  </div>
+
+  <!-- Page 4: Plot Details & Payment Information -->
+  <div class="page">
+    <section>
+      <h2>Details of Plot Applied For</h2>
+      <p>
+        <strong>A.</strong> Size of Plot: ________ Square Meters (________ Square Yards)*<br>
+        <strong>B.</strong> Plot No.: _______________________________ (“Plot”)<br>
+        <strong>C.</strong> Project Name: TRIDENT HILLS<br>
+        <strong>D.</strong> Payment Plan: 
+          <label>(Development Linked) [ ]</label> 
+          <label>(Time Linked) [ ]</label>
+          <label>(Down Payment) [ ]</label>
+      </p>
+      <p>
+        <strong>Booking Mode:</strong> Direct [ ]  Broker [ ]<br>
+        (If broker, please specify name and seal)
+      </p>
+      <p><em>* 1 Square Yard = 0.8361 Square Meters</em></p>
+      <section>
+        <h3>For Office Use Only</h3>
+        <p>
+          (Details such as breakup of total price, additional charges, and internal notes.)
+        </p>
+      </section>
+    </section>
+  </div>
+
+  <!-- Page 5: Declaration & Terms -->
+  <div class="page">
+    <section>
+      <h2>Declaration &amp; Acknowledgment</h2>
+      <p>
+        I/We, the undersigned Applicant(s), hereby declare that the information provided in this application is true and correct. I/We agree to abide by all terms and conditions of the Plot Buyer Agreement and understand that the allotment is subject to final approval by the Promoter.
+      </p>
+      <p>
+        I/We undertake to pay the Application Money and subsequent installments as per the agreed Payment Plan.
+      </p>
+      <p>
+        <strong>Signatures:</strong><br>
+        ____________________________ (Applicant 1)<br>
+        ____________________________ (Applicant 2, if any)<br>
+        ____________________________ (Applicant 3, if any)
+      </p>
+      <p>
+        <strong>Place:</strong> _____________________  <strong>Date:</strong> _____________________
+      </p>
+    </section>
+    <section>
+      <h2>Schedule-I: Key Indicative Terms &amp; Conditions</h2>
+      <p>
+        [A summarized version of the terms and conditions is inserted here. For full details, please refer to the attached Plot Buyer Agreement.]
+      </p>
+    </section>
+  </div>
+
+</body>
+</html>
